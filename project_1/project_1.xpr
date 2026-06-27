@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2024.2 (64-bit)                              -->
+<!--                                                                         -->
+<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
+<!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
+
+<Project Product="Vivado" Version="7" Minor="68" Path="/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="225d892301b64ff3852e4d4f69d19283"/>
+    <Option Name="Part" Val="xc7z020clg400-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="SimulatorInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorInstallDirVCS" Val=""/>
+    <Option Name="SimulatorInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorGccInstallDirModelSim" Val=""/>
+    <Option Name="SimulatorGccInstallDirQuesta" Val=""/>
+    <Option Name="SimulatorGccInstallDirXcelium" Val=""/>
+    <Option Name="SimulatorGccInstallDirVCS" Val=""/>
+    <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
+    <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
+    <Option Name="SimulatorVersionXsim" Val="2024.2"/>
+    <Option Name="SimulatorVersionModelSim" Val="2024.1"/>
+    <Option Name="SimulatorVersionQuesta" Val="2024.1"/>
+    <Option Name="SimulatorVersionXcelium" Val="24.03.003"/>
+    <Option Name="SimulatorVersionVCS" Val="V-2023.12-SP1"/>
+    <Option Name="SimulatorVersionRiviera" Val="2024.04"/>
+    <Option Name="SimulatorVersionActiveHdl" Val="15.0"/>
+    <Option Name="SimulatorGccVersionXsim" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionModelSim" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionQuesta" Val="7.4.0"/>
+    <Option Name="SimulatorGccVersionXcelium" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionVCS" Val="9.2.0"/>
+    <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
+    <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
+    <Option Name="BoardPart" Val="digilentinc.com:zybo-z7-20:part0:1.1"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../.Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="EnableResourceEstimation" Val="FALSE"/>
+    <Option Name="SimCompileState" Val="TRUE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSABoardId" Val="zybo-z7-20"/>
+    <Option Name="WTXSimLaunchSim" Val="10"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+    <Option Name="DcpsUptoDate" Val="TRUE"/>
+    <Option Name="UseInlineHdlIP" Val="TRUE"/>
+    <Option Name="LocalIPRepoLeafDirName" Val="ip_repo"/>
+  </Configuration>
+  <FileSets Version="1" Minor="32">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/new/conv0.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/conv1.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/conv2.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/dense.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/maxpool.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/cnn_top.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_131.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_131.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_43.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_43.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_86.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_86.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_35.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_35.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_70.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_70.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_25.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_25.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_107.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_107.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_46.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_46.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_68.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_68.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_78.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_78.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_36.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_36.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_2.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_2.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_115.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_115.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_141.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_141.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_21.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_21.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_64.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_64.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_8.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_8.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_103.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_103.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_18.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_18.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_29.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_29.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_92.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_92.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_63.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_63.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_52.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_52.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_121.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_121.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_135.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_135.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_20.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_20.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_58.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_58.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_15.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_15.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_119.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_119.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_81.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_81.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_21.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_21.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/dense0_weight.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/dense0_weight.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_136.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_136.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_6.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_6.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_64.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_64.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_31.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_31.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_110.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_110.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_57.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_57.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_14.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_14.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_57.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_57.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_31.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_31.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_74.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_74.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_14.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_14.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_47.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_47.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_91.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_91.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_125.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_125.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_70.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_70.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_108.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_108.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_3.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_3.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_68.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_68.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_10.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_10.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_96.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_96.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_53.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_53.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_42.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_42.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_142.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_142.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_19.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_19.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_79.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_79.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_25.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_25.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_36.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_36.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_85.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_85.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv0_weight_4.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv0_weight_4.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_53.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_53.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_18.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_18.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_26.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_26.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_106.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_106.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_10.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_10.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_34.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_34.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/dense1_bias.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/dense1_bias.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_29.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_29.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_61.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_61.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_37.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_37.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_77.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_77.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_42.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_42.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_114.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_114.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_3.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_3.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_7.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_7.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_69.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_69.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_45.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_45.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_62.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_62.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_46.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_46.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv0_bias.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv0_bias.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_129.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_129.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_50.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_50.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv0_weight_0.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv0_weight_0.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_22.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_22.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_0.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_0.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_118.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_118.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_93.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_93.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_65.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_65.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_122.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_122.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_134.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_134.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_89.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_89.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_17.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_17.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_73.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_73.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_90.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_90.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv0_weight_7.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv0_weight_7.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_41.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_41.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_bias.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_bias.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_137.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_137.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_22.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_22.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_111.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_111.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_30.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_30.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_7.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_7.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_65.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_65.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_82.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_82.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_102.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_102.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_69.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_69.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_37.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_37.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_26.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_26.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_4.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_4.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_109.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_109.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv0_weight_3.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv0_weight_3.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_130.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_130.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_11.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_11.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_13.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_13.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_30.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_30.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_54.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_54.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_56.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_56.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_126.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_126.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_97.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_97.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_28.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_28.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_51.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_51.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_6.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_6.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_123.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_123.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_44.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_44.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_94.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_94.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv0_weight_1.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv0_weight_1.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_27.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_27.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/dense1_weight.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/dense1_weight.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_11.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_11.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_61.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_61.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_54.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_54.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_62.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_62.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_17.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_17.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_34.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_34.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_45.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_45.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_88.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_88.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_133.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_133.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_48.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_48.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_0.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_0.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_105.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_105.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_16.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_16.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_33.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_33.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_76.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_76.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_9.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_9.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_117.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_117.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_40.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_40.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv0_weight_6.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv0_weight_6.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_66.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_66.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_23.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_23.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_127.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_127.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_72.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_72.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_101.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_101.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_55.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_55.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_1.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_1.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_59.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_59.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_12.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_12.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_33.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_33.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_38.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_38.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_50.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_50.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_49.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_49.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_112.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_112.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_4.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_4.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_138.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_138.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_83.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_83.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_12.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_12.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_23.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_23.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_55.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_55.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_40.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_40.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_66.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_66.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_98.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_98.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_5.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_5.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_49.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_49.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_38.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_38.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_60.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_60.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_1.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_1.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_140.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_140.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_bias.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_bias.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_124.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_124.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_132.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_132.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_27.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_27.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_71.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_71.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_44.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_44.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_87.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_87.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_63.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_63.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv0_weight_2.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv0_weight_2.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_19.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_19.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_95.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_95.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_52.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_52.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_32.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_32.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_9.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_9.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_120.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_120.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_75.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_75.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_51.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_51.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_20.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_20.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_59.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_59.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_16.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_16.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_8.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_8.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_116.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_116.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/dense0_bias.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/dense0_bias.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_35.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_35.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_104.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_104.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_28.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_28.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_80.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_80.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_47.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_47.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_15.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_15.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_99.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_99.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_13.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_13.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_56.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_56.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_48.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_48.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv0_weight_5.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv0_weight_5.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_24.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_24.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_39.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_39.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_2.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_2.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_67.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_67.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_58.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_58.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_128.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_128.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_32.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_32.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_39.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_39.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_24.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_24.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_113.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_113.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_143.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_143.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_5.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_5.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_60.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_60.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_139.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_139.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_84.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_84.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_71.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_71.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv1_weight_43.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv1_weight_43.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_41.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_41.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_100.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_100.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/npu_weights_2/conv2_weight_67.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../python/npu_weights_2/conv2_weight_67.txt"/>
+          <Attr Name="ImportTime" Val="1782462671"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="cnn_top"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <File Path="$PSRCDIR/sim_1/new/tb_cnn_top.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="tb_cnn_top"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="PamDesignTestbench" Val=""/>
+        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
+        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
+        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="CosimPdi" Val=""/>
+        <Option Name="CosimPlatform" Val=""/>
+        <Option Name="CosimElf" Val=""/>
+      </Config>
+    </FileSet>
+    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+      <Filter Type="Utils"/>
+      <Config>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Xcelium">
+      <Option Name="Description" Val="Xcelium Parallel Simulator"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="22">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1" ParallelReportGen="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2024"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+  </Runs>
+  <Board>
+    <Jumpers/>
+  </Board>
+  <DashboardSummary Version="1" Minor="0">
+    <Dashboards>
+      <Dashboard Name="default_dashboard">
+        <Gadgets>
+          <Gadget Name="drc_1" Type="drc" Version="1" Row="2" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_drc_0 "/>
+          </Gadget>
+          <Gadget Name="methodology_1" Type="methodology" Version="1" Row="2" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_methodology_0 "/>
+          </Gadget>
+          <Gadget Name="power_1" Type="power" Version="1" Row="1" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_power_0 "/>
+          </Gadget>
+          <Gadget Name="timing_1" Type="timing" Version="1" Row="0" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_timing_summary_0 "/>
+          </Gadget>
+          <Gadget Name="utilization_1" Type="utilization" Version="1" Row="0" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="synth_1#synth_1_synth_report_utilization_0 "/>
+            <GadgetParam Name="RUN.STEP" Type="string" Value="synth_design"/>
+            <GadgetParam Name="RUN.TYPE" Type="string" Value="synthesis"/>
+          </Gadget>
+          <Gadget Name="utilization_2" Type="utilization" Version="1" Row="1" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_place_report_utilization_0 "/>
+          </Gadget>
+        </Gadgets>
+      </Dashboard>
+      <CurrentDashboard>default_dashboard</CurrentDashboard>
+    </Dashboards>
+  </DashboardSummary>
+</Project>

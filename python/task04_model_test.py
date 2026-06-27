@@ -38,7 +38,7 @@ y_test_class = np.argmax(y_test, axis=1)
 # ───────────────────────────────────────────────
 # 5. 모델 로드
 # ───────────────────────────────────────────────
-model = load_model('models/wafer_cnn_0.952.h5')
+model = load_model('models/wafer_cnn_0.950.h5')
 model.summary()
 
 # ───────────────────────────────────────────────

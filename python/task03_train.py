@@ -3,6 +3,7 @@
 import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Conv2D, MaxPooling2D, Flatten, BatchNormalization, Dropout
+from tensorflow.keras import regularizers
 from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -48,21 +49,23 @@ print(X_test.shape)
 # ───────────────────────────────────────────────
 # 5. 모델 정의
 # ───────────────────────────────────────────────
+L2 = regularizers.l2(0.001)   # 가중치 크기 억제 → int8 범위 내 유지
+
 model = Sequential()
-model.add(Conv2D(8,  kernel_size=(3, 3), padding='same', input_shape=(48, 48, 1), activation='relu'))
-model.add(BatchNormalization())
+model.add(Conv2D(8,  kernel_size=(3, 3), padding='same', input_shape=(48, 48, 1),
+                 activation='relu', kernel_regularizer=L2))
 model.add(MaxPooling2D(pool_size=(2, 2)))   # → 24×24×8
 
-model.add(Conv2D(16, kernel_size=(3, 3), padding='same', activation='relu'))
-model.add(BatchNormalization())
+model.add(Conv2D(16, kernel_size=(3, 3), padding='same',
+                 activation='relu', kernel_regularizer=L2))
 model.add(MaxPooling2D(pool_size=(2, 2)))   # → 12×12×16
 
-model.add(Conv2D(32, kernel_size=(3, 3), padding='same', activation='relu'))
-model.add(BatchNormalization())
+model.add(Conv2D(32, kernel_size=(3, 3), padding='same',
+                 activation='relu', kernel_regularizer=L2))
 model.add(MaxPooling2D(pool_size=(2, 2)))   # → 6×6×32
 
 model.add(Flatten())
-model.add(Dense(64, activation='relu'))
+model.add(Dense(64, activation='relu', kernel_regularizer=L2))
 model.add(Dropout(0.3))
 model.add(Dense(num_classes, activation='softmax'))
 model.summary()

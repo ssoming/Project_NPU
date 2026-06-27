@@ -1,0 +1,25 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_cnn_top_behav xil_defaultlib.tb_cnn_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/cnn_top.v" Line 22. Module cnn_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/cnn_top.v" Line 22. Module cnn_top doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.conv0
+Compiling module xil_defaultlib.maxpool(IN_H=48,IN_W=48)
+Compiling module xil_defaultlib.conv1
+Compiling module xil_defaultlib.maxpool(IN_H=24,IN_W=24,N_CH=16)
+Compiling module xil_defaultlib.conv2
+Compiling module xil_defaultlib.maxpool(IN_H=12,IN_W=12,N_CH=32)
+Compiling module xil_defaultlib.dense0_layer
+Compiling module xil_defaultlib.dense1_layer
+Compiling module xil_defaultlib.cnn_top
+Compiling module xil_defaultlib.tb_cnn_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_cnn_top_behav

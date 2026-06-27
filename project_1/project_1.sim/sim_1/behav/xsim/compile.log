@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/cnn_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cnn_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/conv0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/conv1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/conv2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/dense.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dense0_layer
+INFO: [VRFC 10-311] analyzing module dense1_layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/maxpool.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxpool
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sim_1/new/tb_cnn_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_cnn_top

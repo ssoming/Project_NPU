@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sim_1/new/tb_cnn_top.v,1782456492,verilog,,,,tb_cnn_top,,,,,,,,
+/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/cnn_top.v,1782457644,verilog,,/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/conv0.v,,cnn_top,,,,,,,,
+/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/conv0.v,1782454162,verilog,,/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/conv1.v,,conv0,,,,,,,,
+/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/conv1.v,1782454187,verilog,,/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/conv2.v,,conv1,,,,,,,,
+/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/conv2.v,1782457562,verilog,,/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/dense.v,,conv2,,,,,,,,
+/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/dense.v,1782456035,verilog,,/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/maxpool.v,,dense0_layer;dense1_layer,,,,,,,,
+/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sources_1/new/maxpool.v,1782459211,verilog,,/home/ming/workspace_ondevice_2/Project_NPU/project_1/project_1.srcs/sim_1/new/tb_cnn_top.v,,maxpool,,,,,,,,
