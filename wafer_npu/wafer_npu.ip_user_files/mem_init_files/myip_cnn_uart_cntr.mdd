@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER myip_cnn_uart_cntr
+	OPTION supported_peripherals = (myip_cnn_uart_cntr);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = myip_cnn_uart_cntr;
+END DRIVER

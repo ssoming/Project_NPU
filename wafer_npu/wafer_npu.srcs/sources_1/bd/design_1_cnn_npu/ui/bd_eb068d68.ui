@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.568337",
+   "Default View_TopLeft":"-368,4",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1410 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1410 -y 90 -defaultsOSRD
+preplace port port-id_uart_tx_0 -pg 1 -lvl 5 -x 1410 -y 780 -defaultsOSRD
+preplace port port-id_uart_rx_0 -pg 1 -lvl 0 -x 0 -y 780 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 610 -y 120 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 210 -y 210 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -x 980 -y 420 -defaultsOSRD
+preplace inst myip_cnn_classificat_0 -pg 1 -lvl 4 -x 1270 -y 420 -defaultsOSRD
+preplace inst myip_cnn_uart_cntr_0 -pg 1 -lvl 2 -x 610 -y 700 -defaultsOSRD
+preplace inst myip_uart_rxtx_0 -pg 1 -lvl 4 -x 1270 -y 790 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 20 10 NJ 10 800
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 30 110 400 240 810 220 1140
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 3 390 350 820 620 1150
+preplace netloc myip_uart_rxtx_0_uart_tx 1 4 1 NJ 780
+preplace netloc uart_rx_0_1 1 0 4 NJ 780 NJ 780 NJ 780 NJ
+preplace netloc myip_uart_rxtx_0_irq 1 1 4 420 610 NJ 610 NJ 610 1390
+preplace netloc processing_system7_0_DDR 1 2 3 810J 60 NJ 60 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ 90 NJ 90 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 830 130n
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 N 400
+preplace netloc axi_interconnect_0_M01_AXI 1 1 3 410 230 NJ 230 1130
+preplace netloc axi_interconnect_0_M02_AXI 1 3 1 1130 440n
+preplace netloc myip_cnn_uart_cntr_0_m_axi 1 2 1 830 310n
+levelinfo -pg 1 0 210 610 980 1270 1410
+pagesize -pg 1 -db -bbox -sgen -120 0 1520 880
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"2",
+   "da_ps7_cnt":"1"
+}

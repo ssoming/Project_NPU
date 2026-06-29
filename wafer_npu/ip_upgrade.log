@@ -1,0 +1,142 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon Jun 29 15:06:57 2026
+| Host         : ming-lab running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_cnn_npu_myip_cnn_classificat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_cnn_npu_myip_cnn_classificat_0_0 (user.org:user:myip_cnn_classification:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon Jun 29 14:50:48 2026
+| Host         : ming-lab running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_cnn_npu_myip_cnn_classificat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_cnn_npu_myip_cnn_classificat_0_0 (user.org:user:myip_cnn_classification:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon Jun 29 14:45:11 2026
+| Host         : ming-lab running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_cnn_npu_myip_cnn_classificat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_cnn_npu_myip_cnn_classificat_0_0 (user.org:user:myip_cnn_classification:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon Jun 29 14:36:52 2026
+| Host         : ming-lab running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_cnn_npu_myip_cnn_classificat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_cnn_npu_myip_cnn_classificat_0_0 (user.org:user:myip_cnn_classification:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon Jun 29 14:28:51 2026
+| Host         : ming-lab running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_cnn_npu_myip_cnn_classificat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_cnn_npu_myip_cnn_classificat_0_0 (user.org:user:myip_cnn_classification:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon Jun 29 14:00:18 2026
+| Host         : ming-lab running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_cnn_npu_myip_cnn_uart_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_cnn_npu_myip_cnn_uart_cntr_0_0 (user.org:user:myip_cnn_uart_cntr:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon Jun 29 13:57:20 2026
+| Host         : ming-lab running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_cnn_npu_myip_cnn_uart_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_cnn_npu_myip_cnn_uart_cntr_0_0 (user.org:user:myip_cnn_uart_cntr:1.0 (Rev. 2)) to current project options.
+

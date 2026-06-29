@@ -1,0 +1,662 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon Jun 29 15:12:53 2026
+| Host         : ming-lab running 64-bit Ubuntu 24.04.4 LTS
+| Command      : report_drc -file design_1_cnn_npu_wrapper_drc_routed.rpt -pb design_1_cnn_npu_wrapper_drc_routed.pb -rpx design_1_cnn_npu_wrapper_drc_routed.rpx
+| Design       : design_1_cnn_npu_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 123
++-----------+----------+----------------------------+--------+
+| Rule      | Severity | Description                | Checks |
++-----------+----------+----------------------------+--------+
+| CHECK-3   | Warning  | Report rule limit reached  | 2      |
+| DPIP-1    | Warning  | Input pipelining           | 32     |
+| DPOP-1    | Warning  | PREG Output pipelining     | 18     |
+| DPOP-2    | Warning  | MREG Output pipelining     | 17     |
+| PDRC-134  | Warning  | SLICE_PairEqSame_B6B5_WARN | 2      |
+| PDRC-136  | Warning  | SLICE_PairEqSame_C6C5_WARN | 3      |
+| PDRC-138  | Warning  | SLICE_PairEqSame_D6D5_WARN | 2      |
+| PDRC-142  | Warning  | SLICE_PairEqSame_B6B5_WARN | 2      |
+| PDRC-144  | Warning  | SLICE_PairEqSame_C6C5_WARN | 2      |
+| PDRC-146  | Warning  | SLICE_PairEqSame_D6D5_WARN | 3      |
+| REQP-1839 | Warning  | RAMB36 async control check | 20     |
+| REQP-1840 | Warning  | RAMB18 async control check | 20     |
++-----------+----------+----------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1839 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+CHECK-3#2 Warning
+Report rule limit reached  
+REQP-1840 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+DPIP-1#1 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__0 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__0 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__1 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__1 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__0 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__0 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__1 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__3 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__3/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#17 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__0 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#18 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__0 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#19 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__1 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#20 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#21 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#22 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__3 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__3/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#23 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/img_raddr0 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/img_raddr0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#24 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/img_raddr1 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/img_raddr1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#25 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#26 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#27 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__0 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#28 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__0 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#29 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__1 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#30 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__1 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#31 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#32 Warning
+Input pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__2 input design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__0 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__1 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#5 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__0 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#6 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__1 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#7 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__2 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#8 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__3 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#9 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#10 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__0 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#11 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__1 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#12 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__2 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#13 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__3 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#14 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/img_raddr0 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/img_raddr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#15 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#16 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__0 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#17 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__1 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#18 Warning
+PREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__2 output design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__0 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__1 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm1_wdata2__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__0 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__1 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__2 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#8 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__3 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm2_wdata2__3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#9 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#10 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__0 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#11 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__1 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#12 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__2 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#13 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__3 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/fm3_wdata2__3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#14 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#15 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__0 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#16 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__1 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#17 Warning
+MREG Output pipelining  
+DSP design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__2 multiplier stage design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p_2_out__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+PDRC-134#1 Warning
+SLICE_PairEqSame_B6B5_WARN  
+Luts B6LUT and B5LUT in use in site SLICE_X63Y38 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-134#2 Warning
+SLICE_PairEqSame_B6B5_WARN  
+Luts B6LUT and B5LUT in use in site SLICE_X64Y38 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-136#1 Warning
+SLICE_PairEqSame_C6C5_WARN  
+Luts C6LUT and C5LUT in use in site SLICE_X41Y100 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-136#2 Warning
+SLICE_PairEqSame_C6C5_WARN  
+Luts C6LUT and C5LUT in use in site SLICE_X64Y38 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-136#3 Warning
+SLICE_PairEqSame_C6C5_WARN  
+Luts C6LUT and C5LUT in use in site SLICE_X67Y30 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-138#1 Warning
+SLICE_PairEqSame_D6D5_WARN  
+Luts D6LUT and D5LUT in use in site SLICE_X41Y100 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-138#2 Warning
+SLICE_PairEqSame_D6D5_WARN  
+Luts D6LUT and D5LUT in use in site SLICE_X64Y38 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-142#1 Warning
+SLICE_PairEqSame_B6B5_WARN  
+Luts B6LUT and B5LUT in use in site SLICE_X42Y100 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-142#2 Warning
+SLICE_PairEqSame_B6B5_WARN  
+Luts B6LUT and B5LUT in use in site SLICE_X62Y38 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-144#1 Warning
+SLICE_PairEqSame_C6C5_WARN  
+Luts C6LUT and C5LUT in use in site SLICE_X42Y100 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-144#2 Warning
+SLICE_PairEqSame_C6C5_WARN  
+Luts C6LUT and C5LUT in use in site SLICE_X62Y38 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-146#1 Warning
+SLICE_PairEqSame_D6D5_WARN  
+Luts D6LUT and D5LUT in use in site SLICE_X42Y100 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-146#2 Warning
+SLICE_PairEqSame_D6D5_WARN  
+Luts D6LUT and D5LUT in use in site SLICE_X46Y99 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+PDRC-146#3 Warning
+SLICE_PairEqSame_D6D5_WARN  
+Luts D6LUT and D5LUT in use in site SLICE_X62Y38 with different equations without A6 pin connected to Global Logic High.
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[10] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[8]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[11] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[9]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[12] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[10]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[13] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[11]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[11]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#5 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[14] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[12]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[12]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#6 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[2] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[0]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#7 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[3] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[1]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#8 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[4] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[2]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#9 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[5] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[3]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#10 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[6] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[4]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#11 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[7] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[5]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#12 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[8] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[6]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#13 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRARDADDR[9] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr[7]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_waddr_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#14 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRBWRADDR[10] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr[8]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#15 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRBWRADDR[11] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr[9]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#16 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRBWRADDR[12] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr[10]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#17 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRBWRADDR[13] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr[11]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr_reg[11]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#18 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRBWRADDR[14] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr[12]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr_reg[12]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#19 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRBWRADDR[8] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr[6]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#20 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0 has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/pool1_reg_0/ADDRBWRADDR[9] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr[7]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/p1r_addr_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#1 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg/ADDRARDADDR[10] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr[6]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#2 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg/ADDRARDADDR[4] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr[0]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#3 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg/ADDRARDADDR[5] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr[1]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#4 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg/ADDRARDADDR[6] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr[2]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#5 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg/ADDRARDADDR[7] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr[3]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#6 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg/ADDRARDADDR[8] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr[4]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#7 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_rdata_reg/ADDRARDADDR[9] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr[5]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c1w_addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#8 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[10] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[7]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#9 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[11] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[8]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#10 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[12] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[9]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#11 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[13] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[10]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#12 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[3] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[0]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#13 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[4] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[1]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#14 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[5] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[2]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#15 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[6] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[3]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#16 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[7] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[4]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#17 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[8] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[5]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#18 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_rdata_reg/ADDRARDADDR[9] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg_n_0_[6]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/c2w_addr_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#19 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/d2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/d2w_rdata_reg/ADDRARDADDR[12] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/d2w_addr_reg_n_0_[8]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/d2w_addr_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#20 Warning
+RAMB18 async control check  
+The RAMB18E1 design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/d2w_rdata_reg has an input control pin design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/d2w_rdata_reg/ADDRARDADDR[13] (net: design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/d2w_addr_reg_n_0_[9]) which is driven by a register (design_1_cnn_npu_i/myip_cnn_classificat_0/inst/u_core/d2w_addr_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+
