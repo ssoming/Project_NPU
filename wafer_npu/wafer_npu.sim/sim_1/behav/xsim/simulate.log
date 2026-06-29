@@ -1,0 +1,985 @@
+Time resolution is 1 ps
+Loading mem files...
+Mem file load done.
+
+======================================
+CASE 0
+class_name   =                                                           Center
+true_idx     = 0
+expected_idx = 0
+image_path   =                                                                                                                                                        /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/0_Center/input_0_Center_0_idx11.mem
+======================================
+Loading image to TB memory:                                                                                                                                                        /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/0_Center/input_0_Center_0_idx11.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: 5727350
+  class 1: -15233036
+  class 2: -6786374
+  class 3: -14151575
+  class 4: -416739
+  class 5: -33448993
+  class 6: -7015515
+  class 7: -7931228
+  class 8: -7418897
+result class_idx = 0
+argmax done. class_idx = 0
+Reference layer outputs dumped.
+RESULT: pred=0, expected=0, pass=1
+
+======================================
+CASE 1
+class_name   =                                                           Center
+true_idx     = 0
+expected_idx = 0
+image_path   =                                                                                                                                                        /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/0_Center/input_0_Center_1_idx17.mem
+======================================
+Loading image to TB memory:                                                                                                                                                        /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/0_Center/input_0_Center_1_idx17.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: 9039814
+  class 1: -16175022
+  class 2: -12825008
+  class 3: -21876284
+  class 4: 301516
+  class 5: -54722498
+  class 6: -15274852
+  class 7: -10627366
+  class 8: -10967304
+result class_idx = 0
+argmax done. class_idx = 0
+Reference layer outputs dumped.
+RESULT: pred=0, expected=0, pass=1
+
+======================================
+CASE 2
+class_name   =                                                           Center
+true_idx     = 0
+expected_idx = 0
+image_path   =                                                                                                                                                        /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/0_Center/input_0_Center_2_idx22.mem
+======================================
+Loading image to TB memory:                                                                                                                                                        /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/0_Center/input_0_Center_2_idx22.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: 6641653
+  class 1: -16796452
+  class 2: -6790053
+  class 3: -16733461
+  class 4: -1291815
+  class 5: -40268191
+  class 6: -9409946
+  class 7: -9935040
+  class 8: -13587664
+result class_idx = 0
+argmax done. class_idx = 0
+Reference layer outputs dumped.
+RESULT: pred=0, expected=0, pass=1
+
+======================================
+CASE 3
+class_name   =                                                            Donut
+true_idx     = 1
+expected_idx = 1
+image_path   =                                                                                                                                                          /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/1_Donut/input_1_Donut_0_idx44.mem
+======================================
+Loading image to TB memory:                                                                                                                                                          /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/1_Donut/input_1_Donut_0_idx44.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: 751126
+  class 1: 3291898
+  class 2: -9243407
+  class 3: -10541883
+  class 4: 1772397
+  class 5: -30046631
+  class 6: -2840123
+  class 7: -8331237
+  class 8: -6597989
+result class_idx = 1
+argmax done. class_idx = 1
+Reference layer outputs dumped.
+RESULT: pred=1, expected=1, pass=1
+
+======================================
+CASE 4
+class_name   =                                                            Donut
+true_idx     = 1
+expected_idx = 1
+image_path   =                                                                                                                                                         /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/1_Donut/input_1_Donut_1_idx110.mem
+======================================
+Loading image to TB memory:                                                                                                                                                         /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/1_Donut/input_1_Donut_1_idx110.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: 1996908
+  class 1: 3065720
+  class 2: -8068427
+  class 3: -9155360
+  class 4: 1527688
+  class 5: -22701705
+  class 6: -3282318
+  class 7: -8462748
+  class 8: -7240442
+result class_idx = 1
+argmax done. class_idx = 1
+Reference layer outputs dumped.
+RESULT: pred=1, expected=1, pass=1
+
+======================================
+CASE 5
+class_name   =                                                            Donut
+true_idx     = 1
+expected_idx = 1
+image_path   =                                                                                                                                                         /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/1_Donut/input_1_Donut_2_idx249.mem
+======================================
+Loading image to TB memory:                                                                                                                                                         /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/1_Donut/input_1_Donut_2_idx249.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -6301413
+  class 1: 5441523
+  class 2: -10415532
+  class 3: -17441397
+  class 4: 2442388
+  class 5: -44253852
+  class 6: -7386184
+  class 7: -8781183
+  class 8: -10290655
+result class_idx = 1
+argmax done. class_idx = 1
+Reference layer outputs dumped.
+RESULT: pred=1, expected=1, pass=1
+
+======================================
+CASE 6
+class_name   =                                                         Edge-Loc
+true_idx     = 2
+expected_idx = 2
+image_path   =                                                                                                                                                    /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/2_Edge-Loc/input_2_Edge-Loc_0_idx26.mem
+======================================
+Loading image to TB memory:                                                                                                                                                    /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/2_Edge-Loc/input_2_Edge-Loc_0_idx26.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -7210996
+  class 1: -8394349
+  class 2: 2904472
+  class 3: -154717
+  class 4: 334193
+  class 5: -15347560
+  class 6: -4203968
+  class 7: -414343
+  class 8: -3441498
+result class_idx = 2
+argmax done. class_idx = 2
+Reference layer outputs dumped.
+RESULT: pred=2, expected=2, pass=1
+
+======================================
+CASE 7
+class_name   =                                                         Edge-Loc
+true_idx     = 2
+expected_idx = 2
+image_path   =                                                                                                                                                    /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/2_Edge-Loc/input_2_Edge-Loc_1_idx27.mem
+======================================
+Loading image to TB memory:                                                                                                                                                    /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/2_Edge-Loc/input_2_Edge-Loc_1_idx27.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -8362344
+  class 1: -10720818
+  class 2: 2501534
+  class 3: -2065800
+  class 4: -558252
+  class 5: -23204478
+  class 6: -5081216
+  class 7: -1373324
+  class 8: -13150581
+result class_idx = 2
+argmax done. class_idx = 2
+Reference layer outputs dumped.
+RESULT: pred=2, expected=2, pass=1
+
+======================================
+CASE 8
+class_name   =                                                         Edge-Loc
+true_idx     = 2
+expected_idx = 2
+image_path   =                                                                                                                                                    /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/2_Edge-Loc/input_2_Edge-Loc_2_idx69.mem
+======================================
+Loading image to TB memory:                                                                                                                                                    /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/2_Edge-Loc/input_2_Edge-Loc_2_idx69.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -13314599
+  class 1: -36593624
+  class 2: 3399095
+  class 3: 1163062
+  class 4: -7217031
+  class 5: -41977453
+  class 6: -17462105
+  class 7: -6153012
+  class 8: -10218385
+result class_idx = 2
+argmax done. class_idx = 2
+Reference layer outputs dumped.
+RESULT: pred=2, expected=2, pass=1
+
+======================================
+CASE 9
+class_name   =                                                        Edge-Ring
+true_idx     = 3
+expected_idx = 3
+image_path   =                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/3_Edge-Ring/input_3_Edge-Ring_0_idx19.mem
+======================================
+Loading image to TB memory:                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/3_Edge-Ring/input_3_Edge-Ring_0_idx19.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -20570848
+  class 1: -47300556
+  class 2: 127145
+  class 3: 13447489
+  class 4: -15032173
+  class 5: -74543492
+  class 6: -38483721
+  class 7: -7930969
+  class 8: -9317947
+result class_idx = 3
+argmax done. class_idx = 3
+Reference layer outputs dumped.
+RESULT: pred=3, expected=3, pass=1
+
+======================================
+CASE 10
+class_name   =                                                        Edge-Ring
+true_idx     = 3
+expected_idx = 3
+image_path   =                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/3_Edge-Ring/input_3_Edge-Ring_1_idx21.mem
+======================================
+Loading image to TB memory:                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/3_Edge-Ring/input_3_Edge-Ring_1_idx21.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -19455062
+  class 1: -50874836
+  class 2: 2048054
+  class 3: 12315583
+  class 4: -15667085
+  class 5: -66690467
+  class 6: -33842063
+  class 7: -6945440
+  class 8: -11531319
+result class_idx = 3
+argmax done. class_idx = 3
+Reference layer outputs dumped.
+RESULT: pred=3, expected=3, pass=1
+
+======================================
+CASE 11
+class_name   =                                                        Edge-Ring
+true_idx     = 3
+expected_idx = 3
+image_path   =                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/3_Edge-Ring/input_3_Edge-Ring_2_idx42.mem
+======================================
+Loading image to TB memory:                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/3_Edge-Ring/input_3_Edge-Ring_2_idx42.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -22540540
+  class 1: -39953685
+  class 2: 435528
+  class 3: 11080470
+  class 4: -13991158
+  class 5: -69362707
+  class 6: -35304412
+  class 7: -3342833
+  class 8: -9154698
+result class_idx = 3
+argmax done. class_idx = 3
+Reference layer outputs dumped.
+RESULT: pred=3, expected=3, pass=1
+
+======================================
+CASE 12
+class_name   =                                                              Loc
+true_idx     = 4
+expected_idx = 4
+image_path   =                                                                                                                                                               /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/4_Loc/input_4_Loc_0_idx6.mem
+======================================
+Loading image to TB memory:                                                                                                                                                               /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/4_Loc/input_4_Loc_0_idx6.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -6294551
+  class 1: -7637340
+  class 2: 411157
+  class 3: -5765819
+  class 4: 1406671
+  class 5: -23454882
+  class 6: -5730415
+  class 7: -2532755
+  class 8: -2011335
+result class_idx = 4
+argmax done. class_idx = 4
+Reference layer outputs dumped.
+RESULT: pred=4, expected=4, pass=1
+
+======================================
+CASE 13
+class_name   =                                                              Loc
+true_idx     = 4
+expected_idx = 4
+image_path   =                                                                                                                                                               /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/4_Loc/input_4_Loc_1_idx9.mem
+======================================
+Loading image to TB memory:                                                                                                                                                               /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/4_Loc/input_4_Loc_1_idx9.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -19946398
+  class 1: -12693975
+  class 2: 4087536
+  class 3: -10120770
+  class 4: 5035019
+  class 5: -43346478
+  class 6: -10603015
+  class 7: -2925518
+  class 8: -15630057
+result class_idx = 4
+argmax done. class_idx = 4
+Reference layer outputs dumped.
+RESULT: pred=4, expected=4, pass=1
+
+======================================
+CASE 14
+class_name   =                                                              Loc
+true_idx     = 4
+expected_idx = 4
+image_path   =                                                                                                                                                              /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/4_Loc/input_4_Loc_2_idx28.mem
+======================================
+Loading image to TB memory:                                                                                                                                                              /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/4_Loc/input_4_Loc_2_idx28.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -4589443
+  class 1: -5495338
+  class 2: -870077
+  class 3: -8584050
+  class 4: 2471958
+  class 5: -20369294
+  class 6: -3473070
+  class 7: 80112
+  class 8: -2104145
+result class_idx = 4
+argmax done. class_idx = 4
+Reference layer outputs dumped.
+RESULT: pred=4, expected=4, pass=1
+
+======================================
+CASE 15
+class_name   =                                                        Near-full
+true_idx     = 5
+expected_idx = 5
+image_path   =                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/5_Near-full/input_5_Near-full_0_idx45.mem
+======================================
+Loading image to TB memory:                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/5_Near-full/input_5_Near-full_0_idx45.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -26971638
+  class 1: -23301055
+  class 2: 2841602
+  class 3: -7849567
+  class 4: -1237087
+  class 5: 9194535
+  class 6: -2937169
+  class 7: -17105985
+  class 8: -36132361
+result class_idx = 5
+argmax done. class_idx = 5
+Reference layer outputs dumped.
+RESULT: pred=5, expected=5, pass=1
+
+======================================
+CASE 16
+class_name   =                                                        Near-full
+true_idx     = 5
+expected_idx = 5
+image_path   =                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/5_Near-full/input_5_Near-full_1_idx56.mem
+======================================
+Loading image to TB memory:                                                                                                                                                  /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/5_Near-full/input_5_Near-full_1_idx56.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -11725557
+  class 1: -12908148
+  class 2: 380251
+  class 3: -7800424
+  class 4: -3137813
+  class 5: 4406184
+  class 6: 1286151
+  class 7: -10777727
+  class 8: -14281806
+result class_idx = 5
+argmax done. class_idx = 5
+Reference layer outputs dumped.
+RESULT: pred=5, expected=5, pass=1
+
+======================================
+CASE 17
+class_name   =                                                        Near-full
+true_idx     = 5
+expected_idx = 5
+image_path   =                                                                                                                                                 /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/5_Near-full/input_5_Near-full_2_idx336.mem
+======================================
+Loading image to TB memory:                                                                                                                                                 /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/5_Near-full/input_5_Near-full_2_idx336.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -26937952
+  class 1: -23126293
+  class 2: 2821360
+  class 3: -8418167
+  class 4: -1188967
+  class 5: 9204845
+  class 6: -3227289
+  class 7: -17263787
+  class 8: -36214181
+result class_idx = 5
+argmax done. class_idx = 5
+Reference layer outputs dumped.
+RESULT: pred=5, expected=5, pass=1
+
+======================================
+CASE 18
+class_name   =                                                           Random
+true_idx     = 6
+expected_idx = 6
+image_path   =                                                                                                                                                        /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/6_Random/input_6_Random_0_idx35.mem
+======================================
+Loading image to TB memory:                                                                                                                                                        /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/6_Random/input_6_Random_0_idx35.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -15778190
+  class 1: -9350732
+  class 2: 1062435
+  class 3: -7871901
+  class 4: -589936
+  class 5: -1378586
+  class 6: -1291637
+  class 7: -6205718
+  class 8: -14698066
+result class_idx = 2
+argmax done. class_idx = 2
+Reference layer outputs dumped.
+RESULT: pred=2, expected=6, pass=0
+
+======================================
+CASE 19
+class_name   =                                                           Random
+true_idx     = 6
+expected_idx = 6
+image_path   =                                                                                                                                                       /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/6_Random/input_6_Random_1_idx100.mem
+======================================
+Loading image to TB memory:                                                                                                                                                       /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/6_Random/input_6_Random_1_idx100.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -6513662
+  class 1: -632864
+  class 2: 397468
+  class 3: -8208335
+  class 4: 1702898
+  class 5: -9729725
+  class 6: 3258686
+  class 7: -95751
+  class 8: -8863585
+result class_idx = 6
+argmax done. class_idx = 6
+Reference layer outputs dumped.
+RESULT: pred=6, expected=6, pass=1
+
+======================================
+CASE 20
+class_name   =                                                           Random
+true_idx     = 6
+expected_idx = 6
+image_path   =                                                                                                                                                       /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/6_Random/input_6_Random_2_idx140.mem
+======================================
+Loading image to TB memory:                                                                                                                                                       /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/6_Random/input_6_Random_2_idx140.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -6522722
+  class 1: -8259750
+  class 2: 643753
+  class 3: -5913121
+  class 4: -2544030
+  class 5: -775569
+  class 6: 5426792
+  class 7: -5695457
+  class 8: -6216310
+result class_idx = 6
+argmax done. class_idx = 6
+Reference layer outputs dumped.
+RESULT: pred=6, expected=6, pass=1
+
+======================================
+CASE 21
+class_name   =                                                          Scratch
+true_idx     = 7
+expected_idx = 7
+image_path   =                                                                                                                                                      /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/7_Scratch/input_7_Scratch_0_idx20.mem
+======================================
+Loading image to TB memory:                                                                                                                                                      /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/7_Scratch/input_7_Scratch_0_idx20.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -2856702
+  class 1: -3266664
+  class 2: -1301885
+  class 3: -3225993
+  class 4: 1324281
+  class 5: -18009719
+  class 6: -5942955
+  class 7: 1375919
+  class 8: 798460
+result class_idx = 7
+argmax done. class_idx = 7
+Reference layer outputs dumped.
+RESULT: pred=7, expected=7, pass=1
+
+======================================
+CASE 22
+class_name   =                                                          Scratch
+true_idx     = 7
+expected_idx = 7
+image_path   =                                                                                                                                                      /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/7_Scratch/input_7_Scratch_1_idx65.mem
+======================================
+Loading image to TB memory:                                                                                                                                                      /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/7_Scratch/input_7_Scratch_1_idx65.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -4890526
+  class 1: -4668454
+  class 2: -976188
+  class 3: -4588259
+  class 4: 908379
+  class 5: -19936237
+  class 6: -4949867
+  class 7: 1430680
+  class 8: -2310395
+result class_idx = 7
+argmax done. class_idx = 7
+Reference layer outputs dumped.
+RESULT: pred=7, expected=7, pass=1
+
+======================================
+CASE 23
+class_name   =                                                          Scratch
+true_idx     = 7
+expected_idx = 7
+image_path   =                                                                                                                                                     /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/7_Scratch/input_7_Scratch_2_idx228.mem
+======================================
+Loading image to TB memory:                                                                                                                                                     /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/7_Scratch/input_7_Scratch_2_idx228.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -7504971
+  class 1: -8787932
+  class 2: -1027659
+  class 3: -2961106
+  class 4: -1735417
+  class 5: -27295792
+  class 6: -8416450
+  class 7: 2649650
+  class 8: -750139
+result class_idx = 7
+argmax done. class_idx = 7
+Reference layer outputs dumped.
+RESULT: pred=7, expected=7, pass=1
+
+======================================
+CASE 24
+class_name   =                                                             none
+true_idx     = 8
+expected_idx = 8
+image_path   =                                                                                                                                                             /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/8_none/input_8_none_0_idx0.mem
+======================================
+Loading image to TB memory:                                                                                                                                                             /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/8_none/input_8_none_0_idx0.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -6969994
+  class 1: -11273328
+  class 2: -1175765
+  class 3: -3798339
+  class 4: -1662848
+  class 5: -28971953
+  class 6: -10625094
+  class 7: 714096
+  class 8: 4122558
+result class_idx = 8
+argmax done. class_idx = 8
+Reference layer outputs dumped.
+RESULT: pred=8, expected=8, pass=1
+
+======================================
+CASE 25
+class_name   =                                                             none
+true_idx     = 8
+expected_idx = 8
+image_path   =                                                                                                                                                             /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/8_none/input_8_none_1_idx1.mem
+======================================
+Loading image to TB memory:                                                                                                                                                             /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/8_none/input_8_none_1_idx1.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -7308808
+  class 1: -13246540
+  class 2: -1353627
+  class 3: -2923884
+  class 4: -4906040
+  class 5: -24816937
+  class 6: -10323941
+  class 7: -330736
+  class 8: 3897148
+result class_idx = 8
+argmax done. class_idx = 8
+Reference layer outputs dumped.
+RESULT: pred=8, expected=8, pass=1
+
+======================================
+CASE 26
+class_name   =                                                             none
+true_idx     = 8
+expected_idx = 8
+image_path   =                                                                                                                                                             /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/8_none/input_8_none_2_idx2.mem
+======================================
+Loading image to TB memory:                                                                                                                                                             /home/ming/workspace_ondevice_2/Project_NPU/mem/input_images_by_class/8_none/input_8_none_2_idx2.mem
+Image write done.
+tb_img_mem[0] = 0
+tb_img_mem[1] = 0
+tb_img_mem[2] = 0
+CNN start
+conv1_bn done
+pool1 done
+conv2_bn done
+pool2 done
+conv3_bn done
+pool3 done
+dense1 done
+dense2 done
+dense2_out:
+  class 0: -3464392
+  class 1: -10653109
+  class 2: 57813
+  class 3: -4505818
+  class 4: -1532532
+  class 5: -15836100
+  class 6: -5499568
+  class 7: -1551581
+  class 8: 3411272
+result class_idx = 8
+argmax done. class_idx = 8
+Reference layer outputs dumped.
+RESULT: pred=8, expected=8, pass=1
+
+======================================
+BATCH TEST DONE
+total = 27
+pass  = 26
+fail  = 1
+result csv = C:/project_2/mem/vivado_batch_result.csv
+======================================
+$finish called at time : 625955 ns : File "/home/ming/workspace_ondevice_2/Project_NPU/wafer_npu/wafer_npu.srcs/sim_1/new/tb_image_test.v" Line 228
+INFO: xsimkernel Simulation Memory Usage: 268384 KB (Peak: 321556 KB), Simulation CPU Usage: 14480 ms
